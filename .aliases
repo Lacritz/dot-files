@@ -7,7 +7,7 @@ alias bc='bc -q'
 
 alias j='jump'
 
-alias msc='/Users/Timo/Desktop/Privat/Diverses/Scripts/sconsify'
+alias msc='~/.scripts/sconsify'
 
 alias hl='clear && tail -f ~/.zhistory | less -S'
 
@@ -20,3 +20,5 @@ alias tl='~/.scripts/todolist_show.sh'
 alias tc='~/.scripts/todolist_complete.sh'
 alias td='~/.scripts/todolist_delete.sh'
 alias tac='~/.scripts/todolist_archive.sh'
+
+alias fullscreen='osascript ~/.scripts/iterm2_fullscreen.scpt'
