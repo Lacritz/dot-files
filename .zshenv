@@ -1,1 +1,0 @@
-/Users/Timo/.zprezto/runcoms/zshenv

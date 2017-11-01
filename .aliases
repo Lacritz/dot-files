@@ -1,7 +1,9 @@
-alias emacs="emacs -nw"
-alias e="emacs -nw"
+alias emacs="emacsclient -nw"
+alias e="emacsclient -nw"
 alias eyecandy='clear && screenfetch -E'
 alias ec='eyecandy'
+
+alias fs='fullscreen'
 
 alias bc='bc -q'
 
@@ -19,6 +21,8 @@ alias ta='~/.scripts/todolist_add.sh'
 alias tl='~/.scripts/todolist_show.sh'
 alias tc='~/.scripts/todolist_complete.sh'
 alias td='~/.scripts/todolist_delete.sh'
+alias tsa='~/.scripts/todolist_show_archive.sh'
 alias tac='~/.scripts/todolist_archive.sh'
+alias tgc='~/.scripts/todolist_delete_archive.sh'
 
 alias fullscreen='osascript ~/.scripts/iterm2_fullscreen.scpt'
