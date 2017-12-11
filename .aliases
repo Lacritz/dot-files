@@ -1,4 +1,3 @@
-alias emacs="emacsclient -nw"
 alias e="emacsclient -nw"
 alias eyecandy='clear && screenfetch -E'
 alias ec='eyecandy'
@@ -25,4 +24,8 @@ alias tsa='~/.scripts/todolist_show_archive.sh'
 alias tac='~/.scripts/todolist_archive.sh'
 alias tgc='~/.scripts/todolist_delete_archive.sh'
 
+alias wb='~/.scripts/build_website.sh'
+alias wr='~/.scripts/run_website.sh'
+
 alias fullscreen='osascript ~/.scripts/iterm2_fullscreen.scpt'
+alias slack='node ~/.scripts/terminal-slack/main.js'
